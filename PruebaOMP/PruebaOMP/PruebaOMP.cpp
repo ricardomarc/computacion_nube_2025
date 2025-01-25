@@ -42,8 +42,8 @@ int main()
     // Medicion del tiempo de ejecución
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double> duration = end - start;
-    // Imprimir los primeros valores de los arreglos a, b y c
 
+    // Imprimir los primeros valores de los arreglos a, b y c
     imprimirArreglo(a, b, c);
 
 	// Imprimir el tiempo de ejecución
@@ -60,3 +60,4 @@ void imprimirArreglo(float* a, float* b, float* c) {
         std::cout << "[" << x << "] " << a[x] << "\t\t[" << x << "] " << b[x] << "\t\t[" << x << "] " << c[x] << std::endl;
     }
 }
+
